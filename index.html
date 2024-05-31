@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class=" bg-black text-white">
+    <div class="flex md:container mx-auto my-4 ">
+        <div class="first w-16 md:w-[70%]">
+            <div class="sidebar flex flex-col justify-center md:items-end sticky top-0">
+                <div class="logo invert my-4 w-[86%] self-start">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class=" m-auto w-8  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <ul class="flex flex-col text-xl space-y-2 md:pr-[4.45rem]">
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full hover:font-semibold">
+                        <span class="material-symbols-outlined text-[1.7rem]">home</span><span class="hidden md:block">Home</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full hover:font-semibold">
+                        <span class="material-symbols-outlined text-[1.7rem]">search</span><span class="hidden md:block">Explore</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full ">
+                        <span
+                            class="material-symbols-outlined text-[1.7rem] hover:font-semibold">notifications</span><span class="hidden md:block">Notifications</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full hover:font-semibold">
+                        <span class="material-symbols-outlined text-[1.7rem]">mail</span><span class="hidden md:block">Message</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full hover:font-semibold">
+                        <span class="material-symbols-outlined text-[1.7rem]">web_asset_off</span><span class="hidden md:block">Grok</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full hover:font-semibold">
+                        <span class="material-symbols-outlined text-[1.7rem]">list_alt</span><span class="hidden md:block">List</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full hover:font-semibold">
+                        <span class="material-symbols-outlined text-[1.7rem]">workspace_premium</span><span class="hidden md:block">Premium</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full hover:font-semibold">
+                        <span class="material-symbols-outlined text-[1.7rem]">person</span><span class="hidden md:block">Profile</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center gap-3 md:justify-start md:w-fit mr-4 px-5 py-2 hover:cursor-pointer hover:bg-slate-900 hover:rounded-full hover:font-semibold">
+                        <span class="material-symbols-outlined text-[1.7rem]">pending</span><span class="hidden md:block">More</span>
+                    </li>
+                    <div class="button">
+                        <button class="bg-[#1d9bed] rounded-full w-full p-2 hidden md:block">Post</button>
+                        <button class="bg-[#1d9bed] rounded-full w-full block md:hidden"><span class="material-symbols-outlined text-[1.7rem]">edit</span></button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="second w-full border-[1px] border-x-gray-600 border-y-black">
+            <div class="top flex p-1 relative">
+                <div class="absolute w-16 rounded-xl h-1 bg-[#1d9bed] bottom-0 left-[18%]"></div>
+                <div class="left w-1/2 text-center font-bold text-md hover:bg-gray-800 ">For you</div>
+                <div class="right w-1/2 text-center font-bold text-md hover:bg-gray-800">Following</div>
+                <div class="sett"><span class="material-symbols-outlined  mx-3 ">settings</span></div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-600 "></div>
+            <div class="WhatHap flex gap-2 mx-5">
+                <div class="img m-2">
+                    <img class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1616723666947174400/53V-Zt0b_bigger.jpg" alt="">
+                </div>
+                <div class="w-full">
+                    <input class="w-full bg-black text-white h-8 my-2 outline-none text-xl" type="text"
+                        placeholder="What is happening?">
+                    <div class="text-[#1d9bed] flex items-center gap-1 my-1 font-bold">
+                        <span class="material-symbols-outlined text-[1.7rem] cursor-pointer">globe_asia</span>
+                        <span class="cursor-pointer">Everyone can reply</span>
+                    </div>
+                    <div class="w-full h-[1px] bg-gray-600 my-5"></div>
+                    <div class="blueicons flex gap-3 text-[#1d9bed] my-3 ">
+                        <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">imagesmode</span>
+                        <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">gif_box</span>
+                        <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">event_list</span>
+                        <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">sentiment_satisfied</span>
+                        <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">calendar_clock</span>
+                        <span
+                            class="opacity-[0.6] material-symbols-outlined text-[1.4rem]cursor-pointer">location_on</span>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-gray-600"></div>
+
+            <div class="posts">
+                <div class="post flex">
+                    <div class="img">
+                        <img class="rounded-full w-14 m-4"
+                            src="https://pbs.twimg.com/profile_images/1416333885923684360/blsBSmR-_bigger.jpg" alt="">
+                    </div>
+                    <div class="content my-3">
+                        <span class="hover:underline cursor-pointer font-bold">Indian Tech & Infra </span>
+                        <span class="text-gray-500"> @IndianTechGuide · 17h</span>
+                        <div class="my-2">🚨Construction of an International Cricket Stadium in Kashi, Uttar Pradesh.
+                        </div>
+                        <div class="posting  m-4 ml-0">
+                            <img class="w-full rounded-xl"
+                                src="https://pbs.twimg.com/media/GLhskBpasAAUgCn?format=jpg&name=360x360" alt="">
+                        </div>
+                        <div class="icons flex mx-3 text-gray-600 justify-around items-center">
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">chat_bubble</span>1.1k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-green-600">
+                                <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">repeat</span>50
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-red-700">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer  ">favorite</span>15.3k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">bar_chart_4_bars</span>2.8k
+                            </div>
+                            <div class="flex item items-center justify-center gap-1">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed] right-0">bookmark</span>
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed]">upload</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-gray-600"></div>
+            <div class="posts">
+                <div class="post flex">
+                    <div class="img">
+                        <img class="rounded-full w-14 m-4"
+                            src="https://pbs.twimg.com/profile_images/1416333885923684360/blsBSmR-_bigger.jpg" alt="">
+                    </div>
+                    <div class="content my-3">
+                        <span class="hover:underline cursor-pointer font-bold">Indian Tech & Infra </span>
+                        <span class="text-gray-500"> @IndianTechGuide · 17h</span>
+                        <div class="my-2">🚨Construction of an International Cricket Stadium in Kashi, Uttar Pradesh.
+                        </div>
+                        <div class="posting  m-4 ml-0">
+                            <img class="w-full rounded-xl"
+                                src="https://pbs.twimg.com/media/GLhskBpasAAUgCn?format=jpg&name=360x360" alt="">
+                        </div>
+                        <div class="icons flex mx-3 text-gray-600 justify-around items-center">
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">chat_bubble</span>1.1k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-green-600">
+                                <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">repeat</span>50
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-red-700">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer  ">favorite</span>15.3k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">bar_chart_4_bars</span>2.8k
+                            </div>
+                            <div class="flex item items-center justify-center gap-1">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed] right-0">bookmark</span>
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed]">upload</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-gray-600"></div>
+            <div class="posts">
+                <div class="post flex">
+                    <div class="img">
+                        <img class="rounded-full w-14 m-4"
+                            src="https://pbs.twimg.com/profile_images/1416333885923684360/blsBSmR-_bigger.jpg" alt="">
+                    </div>
+                    <div class="content my-3">
+                        <span class="hover:underline cursor-pointer font-bold">Indian Tech & Infra </span>
+                        <span class="text-gray-500"> @IndianTechGuide · 17h</span>
+                        <div class="my-2">🚨Construction of an International Cricket Stadium in Kashi, Uttar Pradesh.
+                        </div>
+                        <div class="posting  m-4 ml-0">
+                            <img class="w-full rounded-xl"
+                                src="https://pbs.twimg.com/media/GLhskBpasAAUgCn?format=jpg&name=360x360" alt="">
+                        </div>
+                        <div class="icons flex mx-3 text-gray-600 justify-around items-center">
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">chat_bubble</span>1.1k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-green-600">
+                                <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">repeat</span>50
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-red-700">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer  ">favorite</span>15.3k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">bar_chart_4_bars</span>2.8k
+                            </div>
+                            <div class="flex item items-center justify-center gap-1">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed] right-0">bookmark</span>
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed]">upload</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-gray-600"></div>
+            <div class="posts">
+                <div class="post flex">
+                    <div class="img">
+                        <img class="rounded-full w-14 m-4"
+                            src="https://pbs.twimg.com/profile_images/1416333885923684360/blsBSmR-_bigger.jpg" alt="">
+                    </div>
+                    <div class="content my-3">
+                        <span class="hover:underline cursor-pointer font-bold">Indian Tech & Infra </span>
+                        <span class="text-gray-500"> @IndianTechGuide · 17h</span>
+                        <div class="my-2">🚨Construction of an International Cricket Stadium in Kashi, Uttar Pradesh.
+                        </div>
+                        <div class="posting  m-4 ml-0">
+                            <img class="w-full rounded-xl"
+                                src="https://pbs.twimg.com/media/GLhskBpasAAUgCn?format=jpg&name=360x360" alt="">
+                        </div>
+                        <div class="icons flex mx-3 text-gray-600 justify-around items-center">
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">chat_bubble</span>1.1k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-green-600">
+                                <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">repeat</span>50
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-red-700">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer  ">favorite</span>15.3k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">bar_chart_4_bars</span>2.8k
+                            </div>
+                            <div class="flex item items-center justify-center gap-1">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed] right-0">bookmark</span>
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed]">upload</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-gray-600"></div>
+            <div class="posts">
+                <div class="post flex">
+                    <div class="img">
+                        <img class="rounded-full w-14 m-4"
+                            src="https://pbs.twimg.com/profile_images/1416333885923684360/blsBSmR-_bigger.jpg" alt="">
+                    </div>
+                    <div class="content my-3">
+                        <span class="hover:underline cursor-pointer font-bold">Indian Tech & Infra </span>
+                        <span class="text-gray-500"> @IndianTechGuide · 17h</span>
+                        <div class="my-2">🚨Construction of an International Cricket Stadium in Kashi, Uttar Pradesh.
+                        </div>
+                        <div class="posting  m-4 ml-0">
+                            <img class="w-full rounded-xl"
+                                src="https://pbs.twimg.com/media/GLhskBpasAAUgCn?format=jpg&name=360x360" alt="">
+                        </div>
+                        <div class="icons flex mx-3 text-gray-600 justify-around items-center">
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">chat_bubble</span>1.1k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-green-600">
+                                <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">repeat</span>50
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-red-700">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer  ">favorite</span>15.3k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">bar_chart_4_bars</span>2.8k
+                            </div>
+                            <div class="flex item items-center justify-center gap-1">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed] right-0">bookmark</span>
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed]">upload</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-gray-600"></div>
+            <div class="posts">
+                <div class="post flex">
+                    <div class="img">
+                        <img class="rounded-full w-14 m-4"
+                            src="https://pbs.twimg.com/profile_images/1416333885923684360/blsBSmR-_bigger.jpg" alt="">
+                    </div>
+                    <div class="content my-3">
+                        <span class="hover:underline cursor-pointer font-bold">Indian Tech & Infra </span>
+                        <span class="text-gray-500"> @IndianTechGuide · 17h</span>
+                        <div class="my-2">🚨Construction of an International Cricket Stadium in Kashi, Uttar Pradesh.
+                        </div>
+                        <div class="posting  m-4 ml-0">
+                            <img class="w-full rounded-xl"
+                                src="https://pbs.twimg.com/media/GLhskBpasAAUgCn?format=jpg&name=360x360" alt="">
+                        </div>
+                        <div class="icons flex mx-3 text-gray-600 justify-around items-center">
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">chat_bubble</span>1.1k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-green-600">
+                                <span class="material-symbols-outlined text-[1.4rem] cursor-pointer">repeat</span>50
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-red-700">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer  ">favorite</span>15.3k
+                            </div>
+                            <div class="flex item items-center justify-center hover:text-[#1d9bed]">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer ">bar_chart_4_bars</span>2.8k
+                            </div>
+                            <div class="flex item items-center justify-center gap-1">
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed] right-0">bookmark</span>
+                                <span
+                                    class="material-symbols-outlined text-[1.4rem] cursor-pointer hover:text-[#1d9bed]">upload</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-gray-600"></div>spa
+        </div>
+
+
+        <div class="third w-full hidden md:block">
+
+            <div class="search m-3 sticky top-0">
+                <input type="text" class="w-1/2 rounded-full bg-[#24272f] text-white px-4 py-2 outline-none"
+                    placeholder="Search">
+            </div>
+
+            <div class="whats m-2 py-3  bg-[#16181c] w-1/2 rounded-xl space-y-1 sticky top-0">
+                <h1 class="text-xl font-bold px-3">Whats happening?</h1>
+                <div class="item space-y-1 p-3 px-4 hover:bg-slate-800 hover:cursor-pointer">
+                    <div class="text-sm text-gray-500">Trending in India</div>
+                    <div class="font-bold text-sm">#IPL</div>
+                    <div class="text-sm text-gray-500">140.2k Posts</div>
+                </div>
+
+                <div class="item space-y-1 p-1 px-4 hover:bg-slate-800 hover:cursor-pointer">
+                    <div class="text-sm text-gray-500">Trending in India</div>
+                    <div class="font-bold text-sm">#Elections</div>
+                    <div class="text-sm text-gray-500">90.6k Posts</div>
+                </div>
+
+                <div class="item space-y-1 p-3 px-4 hover:bg-slate-800 hover:cursor-pointer">
+                    <div class="text-sm text-gray-500">Trending in India</div>
+                    <div class="font-bold text-sm">#Strength</div>
+                    <div class="text-sm text-gray-500">75.4k Posts</div>
+                </div>
+
+                <div class="item space-y-1 p-3 px-4 hover:bg-slate-800 hover:cursor-pointer">
+                    <div class="text-sm text-gray-500">Trending in India</div>
+                    <div class="font-bold text-sm">#Jai Shree Ram</div>
+                    <div class="text-sm text-gray-500">50.9k Posts</div>
+                </div>
+            </div>
+            <div class="who m-3 py-3  bg-[#16181c] w-1/2 rounded-xl space-y-2 sticky top-[50vh]">
+                <h1 class="text-xl font-bold px-3">Who to follow</h1>
+                <div class="item  px-4 hover:cursor-pointer">
+                    <div class="font-bold text-sm hover:cursor-pointer">Doraemon</div>
+                </div>
+                <div class="item  px-4 hover:cursor-pointer">
+                    <div class="font-bold text-sm hover:cursor-pointer">Ninja Hattori</div>
+                </div>
+                <div class="text-sm text-gray-500 ml-6 hover:cursor-pointer hover:text-slate-200 underline">Show
+                    More....</div>
+            </div>
+        </div>
+
+</body>
+
+</html>
